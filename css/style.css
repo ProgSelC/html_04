@@ -1,0 +1,180 @@
+body {
+    background: url('../img/bck.png') top repeat-x #0c739f;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .8);
+}
+
+.header {
+    color: #128aa7;
+}
+
+.logo {
+    position: relative;
+    margin: 11px 0 0 28px;
+    float: left;
+}
+
+.logo img {
+    display: block;
+}
+
+.slogan {
+    position: absolute;
+    top: 98px;
+    left: 72px;
+    font-size: 12px;
+}
+
+.header-right {
+    width: 350px;
+    padding: 0 30px 0 0;
+    float: right;
+}
+
+.contacts {
+    margin: 5px 4px 34px 0;
+    float: right;
+}
+
+.contacts span {
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.contacts span:first-child {
+    line-height: 22px;
+}
+
+.contries {
+    float: right;
+}
+
+.contries li {
+    float: left;
+}
+
+.contries li img {
+    display: block;
+    margin: 0 7px;
+}
+
+.contries li span {
+    display: block;
+    color: #128aa7;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.top-image {
+    height: 235px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+.menu {
+    position: relative;
+    padding-left: 30px;
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid #000;
+    background-color: #303030;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .9);
+}
+
+.menu li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    padding: 0 32px;
+    color: #fff;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 22px;
+    width: 100%;
+    background-color: #303030;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .9);
+}
+
+.sub-menu li {
+    float: none;
+}
+
+.sub-menu li a {
+    padding: 0 10px 5px;
+    line-height: 24px;
+}
+
+.sub-menu li:first-child a {
+    border-top: 1px solid #000;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.content {
+    background: url('../img/content.png') repeat-y;
+    color: #424c43;
+    line-height: 24px;
+}
+
+.content h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.info,
+.center-block,
+.news {
+    padding: 10px 15px;
+    float: left;
+}
+
+.info,
+.news {
+    width: 180px;
+}
+
+.center-block {
+    width: 550px;
+}
+
+.news {
+    float: right;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+}
