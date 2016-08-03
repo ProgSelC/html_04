@@ -4,6 +4,10 @@ body {
     font-size: 14px;
 }
 
+[href="#"] {
+    outline: 0;
+}
+
 .clearfix::after {
     display: table;
     clear: both;
@@ -89,7 +93,7 @@ body {
 .menu {
     position: relative;
     padding-left: 30px;
-    border-top: 1px solid #cacbcb;
+    border-top: 1px solid #cbcbcb;
     border-bottom: 1px solid #000;
     background-color: #303030;
     font-size: 14px;
@@ -121,7 +125,6 @@ body {
     left: 22px;
     width: 100%;
     background-color: #303030;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .9);
 }
 
 .sub-menu li {
